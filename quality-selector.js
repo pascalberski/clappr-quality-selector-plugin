@@ -138,7 +138,7 @@ var QualitySelector = Clappr.UICorePlugin.extend({
 
         if (labelCallback || hasLabels) {
             var level, label;
-            for (var i = 0; i < this.levels; i++) {
+            for (var i = 0; i < this.levels.length; i++) {
                 level = this.levels[i];
                 label = labels[level.id];
                 if (labelCallback)
